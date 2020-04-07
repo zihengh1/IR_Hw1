@@ -16,7 +16,7 @@
         python3 main.py --query drill wood sharp
         ```
     * preprocess.py (Prepare for the word index, tf vector, tf-idf vector, and idf vector.)
-    The tf-idf formula follew by [this blog](https://towardsdatascience.com/natural-language-processing-feature-engineering-using-tf-idf-e8b9d00e7e76). In this program, I save tf vector and tf-idf vector for every document as a pickle file. So, we don't have to recalculate them every time. 
+        :x
     * ![](./figures/formula.png)
     * idf_vector.picke: every word with its idf value are saved in this file.
     * tfidf_vector.picke: every document with its tf and tf-idf value are saved in this file.
