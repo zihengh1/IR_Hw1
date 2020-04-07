@@ -17,7 +17,7 @@
         ```
     * preprocess.py (Prepare for the word index, tf vector, tf-idf vector, and idf vector.)
     The tf-idf formula follew by [this blog](https://towardsdatascience.com/natural-language-processing-feature-engineering-using-tf-idf-e8b9d00e7e76). In this program, I save tf vector and tf-idf vector for every document as a pickle file. So, we don't have to recalculate them every time. 
-    ![](./figures/formula.png)
+    * ![](./figures/formula.png)
     * idf_vector.picke: every word with its idf value are saved in this file.
     * tfidf_vector.picke: every document with its tf and tf-idf value are saved in this file.
     * word_index.pickle: this file defines the index of every word.
@@ -26,4 +26,4 @@
 3. POS Tagger
     As for the Q5, I used the pos tagger from NLTK library. Only keep the noun and verb in a sentence.
 4. Result
-    ![](./figures/result.png)
+    * ![](./figures/result.png)
