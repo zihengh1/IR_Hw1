@@ -22,8 +22,8 @@
     * tfidf_vector.picke: every document with its tf and tf-idf value are saved in this file.
     * word_index.pickle: this file defines the index of every word.
 2. Cleaning Part
-    Followed by the template files released by Prof. Tsai, I added one more condition to preprocess the sentence. I remove all the punctuation and number from words. Therefore, the number of word index is down to **17461**.
+    * Followed by the template files released by Prof. Tsai, I added one more condition to preprocess the sentence. I remove all the punctuation and number from words. Therefore, the number of word index is down to **17461**.
 3. POS Tagger
-    As for the Q5, I used the pos tagger from NLTK library. Only keep the noun and verb in a sentence.
+    * As for the Q5, I used the pos tagger from NLTK library. Only keep the noun and verb in a sentence.
 4. Result
     * ![](./figures/result.png)
