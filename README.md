@@ -16,7 +16,6 @@
         python3 main.py --query drill wood sharp
         ```
     * preprocess.py (Prepare for the word index, tf vector, tf-idf vector, and idf vector.)
-        :x
     * ![](./figures/formula.png)
     * idf_vector.picke: every word with its idf value are saved in this file.
     * tfidf_vector.picke: every document with its tf and tf-idf value are saved in this file.
